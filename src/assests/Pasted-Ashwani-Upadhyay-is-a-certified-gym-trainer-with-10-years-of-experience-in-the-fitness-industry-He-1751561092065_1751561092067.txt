@@ -1,0 +1,95 @@
+Ashwani Upadhyay is a certified gym trainer with 10+ years of experience in the fitness industry. He specializes in muscle science, personal training, body transformation, and mind-muscle connection. The goal is to create a clean, professional, modern-looking portfolio website that attracts clients globally for his online and offline fitness coaching services.
+
+⸻
+
+✅ Website Requirements
+
+1. Homepage (Hero Section)
+	•	Bold Heading: “Build Your Best Self with Ashwani Upadhyay”
+	•	Subheading: 10+ years of expert training backed by science, discipline, and mental clarity
+	•	Call to Action:
+	•	“Book Free 3-Day Trial”
+	•	“WhatsApp for Consultation” → https://wa.me/918400408888
+
+⸻
+
+2. About Section
+	•	Image of Ashwani (in gym/with clients)
+	•	Short bio:
+	•	Strong believer in: “It takes time and science to build the body you dream of.”
+	•	Focuses on:
+	•	Scientific muscle building
+	•	Personalized food & training plans
+	•	Meditation and mind-muscle connection
+	•	Long-term fitness habits
+
+⸻
+
+3. Certifications Section
+	•	Showcase certificates and credentials
+	•	Title: “Certified & Trusted”
+	•	Grid or slider display of certificates (images of certs)
+	•	Optionally mention:
+	•	ISSA Certified Trainer
+	•	Nutrition and Diet Planning Certifications
+	•	Functional Training Courses
+	•	Mindfulness and Meditation Workshops
+
+⸻
+
+4. Services Offered
+	•	Personal Training (Offline/Online)
+	•	One-on-One Coaching via Zoom/Google Meet
+	•	Customized Body Transformation Plans
+	•	Scientific Nutrition Guidance
+	•	Mind-Muscle Connection Mentoring
+
+Highlight:
+
+“All training includes weekly follow-ups, customized charts, and progress tracking.”
+
+⸻
+
+5. Training Plans (Pricing Section)
+	•	Monthly Plan
+	•	Quarterly Plan
+	•	Yearly Plan
+
+All plans include:
+	•	Personalized Diet & Workout
+	•	Weekly Check-ins
+	•	Direct WhatsApp Support
+	•	3-Day Free Trial
+	•	No Satisfaction = Full Refund Guarantee (within first week)
+
+⸻
+
+6. Client Testimonials
+	•	Before/After photos (optional)
+	•	Quotes from past clients
+	•	Star ratings / progress stories
+
+⸻
+
+7. Contact Section
+	•	WhatsApp Chat Button: 8400408888
+	•	Inquiry Form (Name, Email, Fitness Goal, Message)
+	•	Email: ashwani.fitness@gmail.com (example)
+	•	Social links (Instagram, Facebook, YouTube if available)
+
+⸻
+
+8. Footer
+	•	Simple, minimal design
+	•	Navigation links
+	•	WhatsApp contact
+	•	Copyright
+
+⸻
+
+💡 Technical Requirements
+	•	Fully mobile responsive
+	•	Clean, modern font and color palette (professional gym vibe)
+	•	SEO optimized
+	•	Fast loading
+	•	Can be deployed via Replit, Vercel, or Netlify
