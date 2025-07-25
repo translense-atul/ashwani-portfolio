@@ -14,11 +14,15 @@ export default function AboutSection() {
             <h2 className="text-3xl md:text-4xl font-bold text-primary mb-6">About Ashwani</h2>
             <div className="text-lg text-primary mb-6 p-4 bg-light-gray rounded-lg border-l-4 border-accent">
               <p className="italic font-medium">
-                "It takes time and science to build the body you dream of."
+                "If I can transform, you can too – and I’ll be there with you, every step of the way."
               </p>
             </div>
             <p className="text-gray-700 mb-6">
-              Strong believer in evidence-based fitness approaches, I focus on helping clients achieve sustainable transformations through scientific principles and personalized guidance.
+              A few years ago, I was exactly where you might be now – struggling to lose fat, confused about diets, and spending hours in the gym with little to no results. I know how frustrating it is to give your all and still not see the change you want.
+
+              That’s when I decided to take matters into my own hands – diving deep into fitness, understanding what truly works, and transforming my own body and mindset.
+
+              <br></br>Today, I help people just like you break through similar challenges – using science-backed workouts, realistic nutrition plans, and strategies that fit into your lifestyle. No crash diets. No extremes. Just consistent, smart training that gets real results.
             </p>
             <div className="grid sm:grid-cols-2 gap-4">
               <div className="flex items-center space-x-3">

@@ -1,9 +1,19 @@
 export default function CertificationsSection() {
   const certifications = [
     {
+      image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300",
+      title: "NASM Certified",
+      description: "Meditation & Mental Wellness"
+    },
+    {
       image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300",
-      title: "ISSA Certified Trainer",
+      title: "Level 4 certified trainner",
       description: "International Sports Sciences Association"
+    },
+    {
+      image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300",
+      title: "Sports Pshycologist",
+      description: "Meditation & Mental Wellness"
     },
     {
       image: "https://images.unsplash.com/photo-1494390248081-4e521a5940db?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300",
@@ -19,7 +29,9 @@ export default function CertificationsSection() {
       image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300",
       title: "Mindfulness Coach",
       description: "Meditation & Mental Wellness"
-    }
+    },
+
+
   ];
 
   return (

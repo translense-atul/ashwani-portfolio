@@ -12,42 +12,62 @@ export default function PricingSection() {
   const plans = [
     {
       name: "Monthly Plan",
-      price: "₹2,999",
+      price: "₹2,500",
       period: "/month",
       features: [
-        "Personalized Diet & Workout",
+        "4-Week Training + Diet Plan",
         "Weekly Check-ins",
-        "Direct WhatsApp Support",
-        "3-Day Free Trial"
+        "Unlimited WhatsApp Support"
       ],
       highlighted: false
     },
     {
       name: "Quarterly Plan",
-      price: "₹4,999",
+      price: "₹6,500",
       period: "/3 months",
       features: [
-        "Personalized Diet & Workout",
-        "Weekly Check-ins",
-        "Direct WhatsApp Support",
-        "3-Day Free Trial",
-        "Monthly Progress Reports",
-        "weekly monitoring",
-        "6 video chat"
+        "12-Week Full Program",
+        "Workout Updates Every 4 Weeks",
+        "3 Detailed Progress Reviews",
+        "Priority WhatsApp Support"
       ],
       highlighted: true,
-      badge: "Most Popular"
+      badge: "Best Value"
+    },
+    {
+      name: "6-Month Plan",
+      price: "₹12,000",
+      period: "/6 months",
+      features: [
+        "24-Week Full Transformation Plan",
+        "Home & Gym Workout Variations",
+        "Bi-Weekly Progress Check-ins",
+        "Monthly Macro & Diet Adjustments",
+        "2 Free Video Calls (20 mins each)"
+      ],
+      highlighted: false
     },
     {
       name: "Yearly Plan",
-      price: "₹8,999",
+      price: "₹20,000",
       period: "/year",
       features: [
-        "Personalized Diet & Workout",
-        "Weekly Check-ins",
-        "Direct WhatsApp Support",
-        "3-Day Free Trial",
-        "Quarterly Reassessments"
+        "52 Weeks of Coaching",
+        "Monthly Video Progress Check-ins",
+        "Unlimited Plan Adjustments",
+        "Exclusive Lifestyle & Nutrition Coaching"
+      ],
+      highlighted: false
+    },
+    {
+      name: "Quick Shred Plan",
+      price: "₹5,000",
+      period: "/4–6 weeks",
+      features: [
+        "Intense Fat-Burning Workouts",
+        "Aggressive but Healthy Fat-Loss Diet",
+        "Fast & Visible Results in 30–40 Days",
+        "WhatsApp Support & Adjustments"
       ],
       highlighted: false
     }
@@ -65,8 +85,8 @@ export default function PricingSection() {
             <div
               key={index}
               className={`p-8 rounded-xl transition-all duration-300 ${plan.highlighted
-                  ? "bg-accent text-white shadow-lg transform scale-105 relative"
-                  : "bg-gray-50 hover:shadow-lg"
+                ? "bg-accent text-white shadow-lg transform scale-105 relative"
+                : "bg-gray-50 hover:shadow-lg"
                 }`}
             >
               {plan.badge && (
@@ -96,8 +116,8 @@ export default function PricingSection() {
               <Button
                 onClick={scrollToContact}
                 className={`w-full py-3 font-semibold transition-colors ${plan.highlighted
-                    ? "bg-white text-accent hover:bg-gray-100"
-                    : "bg-primary text-white hover:bg-primary/90"
+                  ? "bg-white text-accent hover:bg-gray-100"
+                  : "bg-primary text-white hover:bg-primary/90"
                   }`}
               >
                 Get Started
@@ -105,13 +125,13 @@ export default function PricingSection() {
             </div>
           ))}
         </div>
-        <div className="text-center mt-12">
+        {/* <div className="text-center mt-12">
           <div className="bg-primary text-white p-6 rounded-xl inline-block">
             <p className="text-lg font-semibold">
               No Satisfaction = Full Refund Guarantee (within first week)
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
