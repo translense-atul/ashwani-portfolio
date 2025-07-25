@@ -22,14 +22,14 @@ export default function Footer() {
               className="inline-flex items-center space-x-2 text-whatsapp hover:text-green-400 transition-colors"
             >
               <i className="fab fa-whatsapp"></i>
-              <span>WhatsApp: +91 8400408888</span>
+              <span>WhatsApp: +91 8795705808</span>
             </a>
           </div>
           <div>
             <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2">
               <li>
-                <button 
+                <button
                   onClick={() => scrollToSection("home")}
                   className="text-gray-300 hover:text-white transition-colors"
                 >
@@ -37,7 +37,7 @@ export default function Footer() {
                 </button>
               </li>
               <li>
-                <button 
+                <button
                   onClick={() => scrollToSection("about")}
                   className="text-gray-300 hover:text-white transition-colors"
                 >
@@ -45,7 +45,7 @@ export default function Footer() {
                 </button>
               </li>
               <li>
-                <button 
+                <button
                   onClick={() => scrollToSection("services")}
                   className="text-gray-300 hover:text-white transition-colors"
                 >
@@ -53,7 +53,7 @@ export default function Footer() {
                 </button>
               </li>
               <li>
-                <button 
+                <button
                   onClick={() => scrollToSection("pricing")}
                   className="text-gray-300 hover:text-white transition-colors"
                 >
@@ -61,7 +61,7 @@ export default function Footer() {
                 </button>
               </li>
               <li>
-                <button 
+                <button
                   onClick={() => scrollToSection("testimonials")}
                   className="text-gray-300 hover:text-white transition-colors"
                 >
@@ -83,9 +83,9 @@ export default function Footer() {
           <div>
             <h4 className="text-lg font-semibold mb-4">Contact</h4>
             <ul className="space-y-2">
-              <li className="text-gray-300">ashwani.fitness@gmail.com</li>
+              <li className="text-gray-300">aupadhyay045@gmail.com</li>
               <li className="text-gray-300">Mon-Sat: 6:00 AM - 10:00 PM</li>
-              <li className="text-gray-300">WhatsApp: +91 8400408888</li>
+              <li className="text-gray-300">WhatsApp: +91 8795705808</li>
             </ul>
           </div>
         </div>

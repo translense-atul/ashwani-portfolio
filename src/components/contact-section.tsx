@@ -80,7 +80,7 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <p className="font-semibold text-primary">WhatsApp</p>
-                  <p className="text-secondary">+91 8400408888</p>
+                  <p className="text-secondary">+91 8795705808</p>
                 </div>
               </div>
               <div className="flex items-center space-x-4">
@@ -89,7 +89,7 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <p className="font-semibold text-primary">Email</p>
-                  <p className="text-secondary">ashwani.fitness@gmail.com</p>
+                  <p className="text-secondary">aupadhyay045@gmail.com</p>
                 </div>
               </div>
               <div className="flex items-center space-x-4">
@@ -178,7 +178,7 @@ export default function ContactSection() {
                     <FormItem>
                       <FormLabel>Message</FormLabel>
                       <FormControl>
-                        <Textarea 
+                        <Textarea
                           placeholder="Tell us about your fitness goals and how we can help you..."
                           rows={4}
                           {...field}
@@ -188,8 +188,8 @@ export default function ContactSection() {
                     </FormItem>
                   )}
                 />
-                <Button 
-                  type="submit" 
+                <Button
+                  type="submit"
                   className="w-full bg-accent text-white hover:bg-accent/90 transition-colors"
                   disabled={isSubmitting}
                 >
