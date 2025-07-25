@@ -12,7 +12,7 @@ export default function PricingSection() {
   const plans = [
     {
       name: "Monthly Plan",
-      price: "₹5,999",
+      price: "₹2,999",
       period: "/month",
       features: [
         "Personalized Diet & Workout",
@@ -24,21 +24,23 @@ export default function PricingSection() {
     },
     {
       name: "Quarterly Plan",
-      price: "₹15,999",
+      price: "₹4,999",
       period: "/3 months",
       features: [
         "Personalized Diet & Workout",
         "Weekly Check-ins",
         "Direct WhatsApp Support",
         "3-Day Free Trial",
-        "Monthly Progress Reports"
+        "Monthly Progress Reports",
+        "weekly monitoring",
+        "6 video chat"
       ],
       highlighted: true,
       badge: "Most Popular"
     },
     {
       name: "Yearly Plan",
-      price: "₹49,999",
+      price: "₹8,999",
       period: "/year",
       features: [
         "Personalized Diet & Workout",
@@ -62,11 +64,10 @@ export default function PricingSection() {
           {plans.map((plan, index) => (
             <div
               key={index}
-              className={`p-8 rounded-xl transition-all duration-300 ${
-                plan.highlighted
+              className={`p-8 rounded-xl transition-all duration-300 ${plan.highlighted
                   ? "bg-accent text-white shadow-lg transform scale-105 relative"
                   : "bg-gray-50 hover:shadow-lg"
-              }`}
+                }`}
             >
               {plan.badge && (
                 <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-primary text-white px-4 py-1 rounded-full text-sm font-semibold">
@@ -94,11 +95,10 @@ export default function PricingSection() {
               </ul>
               <Button
                 onClick={scrollToContact}
-                className={`w-full py-3 font-semibold transition-colors ${
-                  plan.highlighted
+                className={`w-full py-3 font-semibold transition-colors ${plan.highlighted
                     ? "bg-white text-accent hover:bg-gray-100"
                     : "bg-primary text-white hover:bg-primary/90"
-                }`}
+                  }`}
               >
                 Get Started
               </Button>
