@@ -33,7 +33,7 @@ export default function HeroSection() {
                 className="bg-whatsapp border-whatsapp text-white px-8 py-6 text-lg font-semibold hover:bg-whatsapp/90 transition-colors"
               >
                 <a
-                  href="https://wa.me/918400408888"
+                  href="https://wa.me/918795705808"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center"

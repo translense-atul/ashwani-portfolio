@@ -16,7 +16,7 @@ export default function Footer() {
               Certified fitness trainer dedicated to helping you build your best self through science-based training.
             </p>
             <a
-              href="https://wa.me/918400408888"
+              href="https://wa.me/918795705808"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center space-x-2 text-whatsapp hover:text-green-400 transition-colors"
