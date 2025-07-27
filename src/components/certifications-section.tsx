@@ -7,7 +7,7 @@ export default function CertificationsSection() {
     },
     {
       image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300",
-      title: "Level 4 certified trainner",
+      title: "Level 4 certified trainer",
       description: "International Sports Sciences Association"
     },
     {
