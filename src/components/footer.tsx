@@ -69,7 +69,7 @@ export default function Footer() {
               href="https://www.translense.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center space-x-1 hover:text-white text-white"
+              className="flex items-center space-x-1 hover:text-white"
             >
               <img
                 src="https://res.cloudinary.com/do5qe4x3t/image/upload/v1744771993/logo_zvfyol.png"
