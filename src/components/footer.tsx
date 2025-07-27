@@ -28,46 +28,16 @@ export default function Footer() {
           <div>
             <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2">
-              <li>
-                <button
-                  onClick={() => scrollToSection("home")}
-                  className="text-gray-300 hover:text-white transition-colors"
-                >
-                  Home
-                </button>
-              </li>
-              <li>
-                <button
-                  onClick={() => scrollToSection("about")}
-                  className="text-gray-300 hover:text-white transition-colors"
-                >
-                  About
-                </button>
-              </li>
-              <li>
-                <button
-                  onClick={() => scrollToSection("services")}
-                  className="text-gray-300 hover:text-white transition-colors"
-                >
-                  Services
-                </button>
-              </li>
-              <li>
-                <button
-                  onClick={() => scrollToSection("pricing")}
-                  className="text-gray-300 hover:text-white transition-colors"
-                >
-                  Pricing
-                </button>
-              </li>
-              <li>
-                <button
-                  onClick={() => scrollToSection("testimonials")}
-                  className="text-gray-300 hover:text-white transition-colors"
-                >
-                  Testimonials
-                </button>
-              </li>
+              {["home", "about", "services", "pricing", "testimonials"].map((id) => (
+                <li key={id}>
+                  <button
+                    onClick={() => scrollToSection(id)}
+                    className="text-gray-300 hover:text-white transition-colors"
+                  >
+                    {id.charAt(0).toUpperCase() + id.slice(1)}
+                  </button>
+                </li>
+              ))}
             </ul>
           </div>
           <div>
@@ -89,10 +59,25 @@ export default function Footer() {
             </ul>
           </div>
         </div>
-        <div className="border-t border-gray-600 mt-8 pt-8 text-center">
+        <div className="border-t border-gray-600 mt-8 pt-8 text-center space-y-2">
           <p className="text-gray-300">
-            &copy; 2024 Ashwani Upadhyay. All rights reserved. | Professional Fitness Training Services
+            &copy; 2025 Ashwani Upadhyay. All rights reserved. | Professional Fitness Training Services
           </p>
+          <div className="flex justify-center items-center gap-2 text-gray-400 text-sm">
+            <span>Powered by</span>
+            <a
+              href="https://www.translense.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center space-x-1 hover:text-white text-white"
+            >
+              <img
+                src="https://res.cloudinary.com/do5qe4x3t/image/upload/v1744771993/logo_zvfyol.png"
+                alt="Translense Logo"
+                className="h-5 w-auto"
+              />
+            </a>
+          </div>
         </div>
       </div>
     </footer>
