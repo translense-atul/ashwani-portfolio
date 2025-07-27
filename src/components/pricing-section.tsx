@@ -70,6 +70,19 @@ export default function PricingSection() {
         "WhatsApp Support & Adjustments"
       ],
       highlighted: false
+    },
+    {
+      name: "Bridal Transformation Plan",
+      price: "₹15,000",
+      period: "/8–12 weeks",
+      features: [
+        "Customized Bridal Fitness & Diet Plan",
+        "Targeted Fat Loss & Toning",
+        "Weekly Progress Monitoring",
+        "Pre-Wedding Grooming Tips",
+        "WhatsApp + Video Call Support"
+      ],
+      highlighted: false
     }
   ];
 
