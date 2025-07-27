@@ -21,7 +21,7 @@ export default function Home() {
       <PricingSection />
       <TestimonialsSection />
       <FaqSection />
-      <ContactSection />
+      {/* <ContactSection /> */}
       <Footer />
       <WhatsAppButton />
     </div>

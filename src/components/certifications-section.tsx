@@ -1,7 +1,7 @@
 export default function CertificationsSection() {
   const certifications = [
     {
-      image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300",
+      image: "https://www.shutterstock.com/shutterstock/photos/330619865/display_1500/stock-photo-handsome-trainer-using-tablet-in-weights-room-at-the-gym-330619865.jpg",
       title: "NASM Certified",
       description: "Meditation & Mental Wellness"
     },
@@ -11,7 +11,7 @@ export default function CertificationsSection() {
       description: "International Sports Sciences Association"
     },
     {
-      image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300",
+      image: "https://www.shutterstock.com/shutterstock/photos/1774837898/display_1500/stock-photo-calm-serene-sporty-young-african-american-ethnic-woman-meditate-sit-namaste-eyes-closed-doing-1774837898.jpg",
       title: "Sports Psychologist",
       description: "Meditation & Mental Wellness"
     },
@@ -26,7 +26,7 @@ export default function CertificationsSection() {
       description: "Movement & Mobility Specialist"
     },
     {
-      image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300",
+      image: "https://www.shutterstock.com/shutterstock/photos/2471712155/display_1500/stock-photo-strength-workout-handsome-athlete-working-out-with-dumbbell-at-gym-free-space-2471712155.jpg",
       title: "Mindfulness Coach",
       description: "Meditation & Mental Wellness"
     },
